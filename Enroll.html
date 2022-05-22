@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll Form</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding-left: 0px;
+
+}
+ /* img{ */
+    /* background-repeat: no-repeat;
+    background-size:1000px;
+    filter: blur(3px); */
+    /* border-radius: 10px; */
+    /* position: relative; */
+    /* padding-left: 50px; */
+/* } */
+body{
+   /* background-color: #f08cba; */
+   font-family: sans-serif;
+   background-image: url(AboutUsPic.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+h1{
+    text-align: center;
+    color: #ffc300;
+    font-family: cursive;
+font-size: 50px;
+  }
+.sub{
+    font-size: 20px;
+border-radius: 10px;
+  }
+.sub:hover{
+    background-color: #ffc300;
+}
+.form{
+  /* text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  box-sizing: border-box;
+  background-color: maroon;
+  color: #ffc300;
+  padding: 100px; */
+  text-align: center;
+  max-width: 800px;
+  max-height: 1000px;
+  /* width: 100%; */
+  background-color: maroon;
+  /* padding: 100px; */
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  color: #ffc300;
+}
+form{
+  padding: 100px;
+}
+</style>
+<body>
+  <center>
+  <div class="form">
+     <br>
+    <h1>Enroll here</h1>
+    <br><br>
+    <form>
+    <label for="fname">First name : </label>
+    <input type="text" name="fname">
+    <br><br><br>
+    <label for="mail">E-mail : </label>
+    <input type="mail" name="mail">
+    <br><br><br>
+    <label for="pass">Password : </label>
+    <input type="password" name="pass">
+    <br><br><br>
+    <label for="no">Contact no. : </label>
+    <input type="nnumber" name="no">
+    <br><br><br>
+    <label for="add">Address : </label>
+    <textarea name="address" cols="20" rows="3">
+    </textarea>
+    <br><br>
+    <label for="type">Which dance type? : </label><br>
+    <input type="checkbox" name="type" value="first">Kathak
+    <input type="checkbox" name="type" value="sec">Semi-Classical
+    <input type="checkbox" name="type" value="sec">Free Style
+    <input type="checkbox" name="type" value="sec">Jazz
+    <input type="checkbox" name="type" value="sec">Hip-Hop
+    <br><br><br>
+<input class="sub" type="SUBMIT" value="Submit">
+</form>
+</div>
+</center>
+
+</body>
+</html>

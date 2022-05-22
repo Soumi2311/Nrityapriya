@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    
+    <!-- google fonts -->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        *{ font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+}
+.about{
+    background: url(AboutUsPic.png) no-repeat left;
+    background-size: 55%;
+    background-color: rgba(167, 92, 238, 0.205);
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: rgba(167, 92, 238, 0.205);
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #f8f4f4;
+    padding-left: 10px;
+    font-family: 'Mukta', sans-serif;
+}
+.text{
+    font-size: 20px;
+    color: #f8f4f4;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    /* padding-right: 1px; */
+    padding-left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: white;
+    color: #ffc300;
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}
+
+/* Footer */
+/* #footer{
+    padding: 7% 15%;
+  }
+  .social-icon{
+    margin: 10px 20px;
+  }
+  .container-fluid{
+    padding: 2% 37%;
+  } */
+/* } */
+    </style>
+</head>
+<body>
+    <div class="about">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+                <i>"Dance is the joy of movement and the heart of life....." Hello people! We are determined to provide you the best dance experience. We are here to make you fall in love with dance.  For any further queries you can contact us. </i>
+            </p>
+            <div class="skills">
+                <a href="ContactUs.html"><button>Contact Us</button></a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer -->
+
+  <!-- <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <a href="https://instagram.com/e_voyage_travel?utm_medium=copy_link"><i class="social-icon fab fa-instagram"></i></a>
+      <i class="social-icon fas fa-envelope"></i>
+
+     <p><b>© Made with</b> ❤️ <b>with E-Voyage</b></p>
+
+    </div>
+</footer> -->
+</body>
+</html>

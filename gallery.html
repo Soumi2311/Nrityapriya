@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+    <style>
+        *{
+            background-color: rgb(150, 1, 1);
+        }
+        h2{
+   text-align: center;
+    font-size: 55px;
+    font-family: 'samarkan', sans-serif;
+    color: #ffc300;
+}
+img{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.images{
+    align-items: center;
+    padding: 20px 120px;
+}
+
+/* vykha */
+
+/* body{
+    text-align: center;
+    margin: 0px 2em;
+    font-family: roboto;
+    background-color:#e7e718;
+} */
+
+input{ 
+ display: none; 
+ }
+
+.tag{
+    font-size: 20px;
+    margin: 1.5em 0px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #efefef;
+    text-decoration: none;
+    color: maroon;
+    border: 1px solid #ccc;
+}
+
+img{
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.07);
+}
+/*filter CSS */
+
+ #Classical:checked ~ .images > img:not([class*='Classical']),
+ #Western:checked ~ .images > img:not([class*='Western']){
+    width: 0px;
+   height: 0px;
+}
+
+#Classical:checked ~ .all,
+#Western:checked ~ .tag1
+{
+    background-color: maroon;      
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <h2>Nrityapriya</h2>
+
+    <!-- <div class="tushar"> -->
+<input type="radio" id="Classical" name="button" checked>
+<input type="radio" id="Western" name="button">
+
+<label class="tag all" for="Classical" style="margin-left: 40%; ">Classical</label>
+<label class="tag tag1" for="Western" style="margin-left: 2%;">Western</label>
+<!-- </div> -->
+<br>
+
+<div class="images">
+
+    <img src="https://cdn.britannica.com/92/189592-050-5023ACF5/dancer-dance-natyam-Indian-Bharata.jpg?q=60" class="Classical">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeyl2yFNljqs0hAFApN5JMdC0hcHhW8ij-omBjFVqJxUsWpLk0nip26Q7KbJ42383rZ0U&usqp=CAU" class="Classical">
+    <img src="https://images.firstpost.com/wp-content/uploads/2022/02/kathak-640.jpg?impolicy=website&width=1200&height=800" class="Classical">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Shinjini_kathak_dance_indian_classical_kamani.jpg" class="Classical">
+    <img src="https://t3.ftcdn.net/jpg/03/73/80/90/360_F_373809049_Oos2i52y5SNUSbchu63BbcZbcbrfEMdT.jpg" class="Classical">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKI1qsPXoqy_um_mgUvBh7qNn5UYYnp3ImJiSm0ZnLaxlGP4LZ-LSmGQxN5wGT-Z0VQ6U&usqp=CAU" class="Classical">
+    <img src="https://www.thestatesman.com/wp-content/uploads/2019/04/Solani-Loomba.jpg" class="Classical">
+    <img src="https://img.theweek.in/content/dam/week/leisure/society/images/2020/4/9/kathak-suyash-dwivedi-commons.jpg" class="Classical">
+    <img src="https://i.pinimg.com/originals/8c/01/c2/8c01c2c3757502d276d73f634e55c568.jpg" class="Classical">
+    <img src="https://i.ytimg.com/vi/LeGTOzvWhc4/hqdefault.jpg" class="Classical">
+    <img src="https://render.fineartamerica.com/images/rendered/search/poster/5.5/8/break/images/artworkimages/medium/2/kathak-dancer-srikanth-gumma.jpg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbLcOOm0dcpNLtm7-yuKRp5xkiggaoE-UQQ&usqp=CAU">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Bharata_Natyam_Performance_DS.jpg" class="Classical">
+    <img src="https://blogbox.indianeagle.com/wp-content/uploads/2014/04/kathak-dance-indian-classical-dance-forms.jpg" class="Classical">
+
+    <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/8/7/a0qexvtagndffdzxrjmv/olivia-pot-pourri-crew" class="Western">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSuzeVahLgd5_7eavldWANY08KN_r0X5CKgA&usqp=CAU" class="Western">
+    <img src="https://daqiantimes.com/wp-content/uploads/2018/12/jazzsteps.jpg" class="Western">
+    <img src="https://hubcitytimes.com/wp-content/uploads/2019/05/Boys-Jazz.jpg" class="Western">
+    <img src="https://img.freepik.com/free-photo/modern-fashionable-couple-dancing-hip-hop-stylish-clothes-black-background_183219-8763.jpg?w=360" class="Western">
+    <img src="https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlwaG9wJTIwZGFuY2V8ZW58MHx8MHx8&w=1000&q=80" class="Western">
+    <img src="https://st4.depositphotos.com/1742368/25698/i/600/depositphotos_256980106-stock-photo-russia-yaroslavl-jan-2016-young.jpg" class="Western">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ioR0KBcCaiSmRgHe4yiTQ3WBBsVuclOfjw&usqp=CAU" class="Western">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK_kS07iflQGzCsJINkZnjYw2RwDZ-yJDdK12D8DBDxU6tBxapYZ2bNRmIg_B2V46Cmaw&usqp=CAU" class="Western">
+    <img src="https://2.imimg.com/data2/WK/TR/MY-4205975/western-dance-all-styles-250x250.jpg" class="Western">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSpp0teAGoDX0eutlxYnq5eIn4ZBwPG2voBw&usqp=CAU" class="Western">
+          </div>
+
+</body>
+</html>

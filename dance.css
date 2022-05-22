@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: maroon; */
+
+}
+@import url('http:fonts.cdnfonts.com/css/samarkan');
+/* .home{ */
+    /* background-color: maroon; */
+    /* background-color: linear-gradient(135deg, maroon, mediumorchid); */
+/* } */
+
+/* body{
+    background-image: linear-gradient(maroon,rgb(163, 122, 122));
+} */
+nav{
+    width: 100%; 
+    height: 15vh;
+    /* background: black; */
+    background: rgba(0,0,0,0.2);
+    color: white;
+    
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-transform: uppercase;
+    
+    /* display: block; */
+
+    float: right;
+    text-decoration: none;
+/* padding: 5px; */
+}
+
+nav{
+    display: block;
+    /* width: 500px; */
+float: right;
+padding: 6px;
+}
+
+#navbar{
+    display: flex;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    margin-top: 2px;
+    float: right;
+    
+}
+#navbar ul{
+    /* text-align: right; */
+    float: right;
+}
+#navbar li{
+    list-style: none;
+    align-items: right;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+}
+#navbar li a{
+    /* text-decoration: none;
+    color: rgb(139, 20, 20);
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease; */
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    line-height: 10;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: auto;
+    height: 40px;
+}
+#navbar li a:hover, #navbar li a:active{
+    color: red;
+}
+#navbar li a:active::after, #navbar li a:hover::after{
+    content: "";
+    width: 20%;
+    height: 20%x;
+    color: red;
+    /* bottom: -4px; */
+    /* left: 20px; */
+}
+#heading{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'samarkan', sans-serif;
+    color: #ffc300;
+    background-color: maroon;
+    width: 1500px;
+    margin: 100px top;
+}
+.home{
+    /* background-color: maroon; */
+    background-image: linear-gradient(maroon,rgb(163, 122, 122));
+}
+.qoutes{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;  
+  margin: 200px;
+  font-size: x-large;
+  color: white;
+  /* background-color: maroon; */
+  /* background-color: maroon; */
+}
+#qoute{
+    font-size: 50px;
+    color: #ffc300;
+    /* background-color: maroon; */
+}
+#danceimage1{
+    height: 500px; 
+    position: relative;
+    float: right;
+    margin-right: -100px; 
+    margin-top: -150px;
+    /* background-color: maroon; */
+    
+    /* background-color: maroon; */
+   
+/* float: top; */
+    
+    /* float: right; */
+   /* float: right;
+    right: 40px; */
+    /* margin: 100p; */
+}
+
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+  }
+  .social-icon{
+    margin: 20px 20px;
+  }
+  .container-fluid{
+    padding: 2% 37%;
+  }
